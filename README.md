@@ -20,6 +20,14 @@ The first problem we tackled was making sure that the microcontroller had a way 
 ## Results
 After extensive testing and optimization, we achieved autonomous track times of 8, 23.3, and 34.6 seconds on the small carpeted, medium sized foam floored, and the large carpeted tracks, respectively.
 
+Track Times:
+Track Type | Time (seconds)
+-----------|---------------
+Small Carpeted | 8.0
+Medium Foam | 23.3
+Large Carpeted | 34.6
+*Table 1: Track times by track type*
+
 The obstacle detection and evasion feature allowed the car to successfully avoid obstacles, marginally impacting track times.
 
 ## Innovation Feature
