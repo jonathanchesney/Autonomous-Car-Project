@@ -21,6 +21,9 @@ The first problem we tackled was making sure that the microcontroller had a way 
 
 *Figure 1: Photo of prototype autonomous car. Shows Romi chassis, HC-SR04 Ultrasound Sensor (blue), and OpenMV Microcontroller (top/red).*
 
+## Innovation Feature
+Our innovation feature implemented an obstacle detection/evasion system. With data obtained from the HC-SR04 ultrasound sensor, we could determine the distance to obstacles in software. Obstacles detected at distances of less than 20 cm prompted the car to perform a 180 degree turn in the direction from which it came, successfully evading the obstacle.
+
 ## Results
 #### Track Times:
 Track Type | Time (seconds)
@@ -32,6 +35,3 @@ Large Carpeted | 34.6
 *Table 1: Track times by track type*
 
 The obstacle detection and evasion feature allowed the car to successfully avoid obstacles, marginally impacting track times.
-
-## Innovation Feature
-Our innovation feature implemented an obstacle detection/evasion system. With data obtained from the HC-SR04 ultrasound sensor, we could determine the distance to obstacles in software. Obstacles detected at distances of less than 20 cm prompted the car to perform a 180 degree turn in the direction from which it came, successfully evading the obstacle.
