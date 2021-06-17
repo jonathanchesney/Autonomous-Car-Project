@@ -1,8 +1,6 @@
 # Autonomous-Car-Project
 ## Authors
-Jonathan Chesney, Joshua Rossie, Paul Takhar
-University of California, Davis
-![image](https://user-images.githubusercontent.com/67126956/122451944-8da15200-cf5d-11eb-91bc-2df7ad8132e9.png)
+Jonathan Chesney, Joshua Rossie, Paul Takhar through the University of California, Davis
 
 ## Introduction
 Self-driving cars are an emerging technology that have gained worldwide attention and will likely forever change modern transportation.
