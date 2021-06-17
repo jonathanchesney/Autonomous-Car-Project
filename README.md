@@ -18,6 +18,7 @@ In order to give the car the abilities described above, we used the Open MV Cam 
 The first problem we tackled was making sure that the microcontroller had a way to control the motors of the car, so we designed a motor control PCB in Altium. After the PCB was set up and ready to go, COVID supply shortages required us to change car chassis at the last minute, rendering our PCB incompatible. Luckily, the Romi chassis has a motor control PCB of its own. Following that we worked on the camera detection, where we used white bundles of pixels (“blobs”) to identify a white line that acts as a track. Knowing the location of the “blobs,” we then were able to code a PI controller that adjusts the speeds of the chassis motors based on the Open MV’s self-identified position on the track. This allowed the car the ability to immediately respond to changes in the track (such as turns), using the proportional controller, and to gain steady state accuracy on straightaways on the track, using the integral controller. Also, the microcontroller would detect if there were three lines in parallel, signaling the stop condition.
 
 ![Image of Vehicle](media/vehicle.jpg)
+*Figure 1: Photo of prototype autonomous car. Shows Romi chassis, HC-SR04 Ultrasound Sensor (blue), and OpenMV Microcontroller (top/red).*
 
 ## Results
 #### Track Times:
